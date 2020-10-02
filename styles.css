@@ -1,0 +1,308 @@
+body {
+    background-color: hsl(218, 28%, 13%);
+    color: white;
+    font-size: 0.875rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    padding: 70px 0 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    width: 50%;
+    margin: auto;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h3 {
+    margin: 30px 0 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.nav-link {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+#intro {
+    background-color: hsl(217, 28%, 15%);
+    text-align: center;
+    padding-top: 100px;
+}
+
+.intro-div {
+    position: absolute;
+    z-index: 1;
+    bottom: 150;
+}
+
+.intro-text{
+    width: 52%;
+    margin: 0 auto;
+}
+
+.btn-lg {
+    background-color:hsl(198, 60%, 50%);
+    color: white;
+    border-radius: 30px;
+    margin-top: 20px;
+    width: 300px;
+}
+
+.curvy {
+    width: 100%;
+    margin-top: 650px;
+}
+
+#feature {
+    margin: 200px 0 0;
+    padding: 0 80px 100px;
+    text-align: center;
+}
+
+.col-lg-6 {
+    padding: 32px;
+}
+
+.illustration {
+    padding: 0 100px;
+}
+
+.illustration-img {
+    float: left;
+    margin-right: 40px;
+    width: 40%;
+}
+
+.illustration-link {
+    color: hsl(176, 68%, 64%);
+    text-decoration: underline;
+}
+
+.quote {
+    position: absolute;
+    left: 40px;
+    z-index: -1;
+}
+#testimonials {
+    padding: 200px 50px;
+}
+
+.testimonial {
+    background-color: hsl(219, 30%, 18%);
+    padding: 50px 20px 20px;
+    display: inline-block;
+    width: 31%;
+    margin-right: 25px;
+    margin-top: 33px;
+}
+
+.testimonial-text {
+    margin-bottom: 30px;
+}
+
+.testimonial-img {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    float: left;
+}
+
+.name {
+    font-weight: 700;
+}
+
+#sign-up {
+    background-color: hsl(217, 28%, 15%);
+    width: 75%;
+    padding: 50px;
+    position: relative;
+    z-index: 1;
+    margin: auto;
+    top: 150px;
+}
+
+.sign-up {
+    text-align: center;
+}
+
+.form-control {
+    width: 60%;
+    border-radius: 30px;
+    display: inline-block;
+    margin: 30px 40px 0 0;
+    padding-left: 40px;
+}
+
+.sign-up-btn {
+    color: white;
+    padding: 6px 16px;
+    width: 30%;
+    margin: 0;
+}
+
+#footer {
+    background-color: hsl(216, 53%, 9%);
+    padding: 250px 20px 50px 100px;
+}
+
+.col-lg-2.location {
+    max-width: 50%;
+}
+
+.location-text {
+    width: 430px;
+}
+
+.col-lg-2.contact {
+    max-width: 20%;
+}
+
+.col-lg-2 {
+    margin-right: 40px;
+    max-width: 10%;
+    padding: 50px 0;
+}
+
+.phone-num {
+    margin-bottom: 20px;
+}
+
+.fa-phone-volume {
+    transform: rotate(-45deg);
+}
+
+.fa-map-marker-alt-div {
+    height: 100px;
+}
+
+.fa-map-marker-alt-div, .fa-phone-volume-div, .fa-envelope-div {
+    float: left;
+    font-size: 1.25rem;
+    margin-right: 10px;
+}
+
+.social-icons {
+    margin-right: 10px;
+    font-size: 1.5625rem;
+}
+
+@media (max-width: 375px) {
+    body {
+        font-size: 0.625rem;
+    }
+
+    h1 {
+        width: 100%;
+    }
+    
+    .logo {
+        width: 50%;
+        margin: auto;
+    }
+    
+    #intro {
+        padding-top: 70px;
+    }
+
+    .intro-img {
+        width: 100%;
+        padding: 0 30px;
+    }
+
+    .intro-div {
+        padding: 0 20px;
+    }
+
+    .intro-text {
+        width: 100%;
+    }
+
+    #feature {
+        padding: 0 20px 70px;
+    }
+
+    .col-lg-6 {
+        padding: 0;
+    }
+
+    .illustration {
+        padding: 0 20px;
+    }
+
+    .illustration-img {
+        clear: right;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    h1.illustration-head {
+        width: 100%;
+    }
+
+    .illustration-text {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    #testimonials {
+        padding: 150px 50px;
+    }
+
+    .testimonial {
+        display: block;
+        width: 100%;
+        margin-top: 33px;
+    }
+
+    #sign-up {
+        width: 80%;
+        padding: 20px;
+        top: 250px;
+    }
+
+    .sign-up {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .form-control {
+        display: block;
+        width: 100%;
+        padding: 20px 30px;
+    }
+
+    .sign-up-btn {
+        padding: 10px 20px;
+        width: 100%;
+        border-radius: 30px;
+        margin-top: 30px;
+    }
+
+    #footer {
+        padding: 300px 50px 50px 50px;
+    }
+
+    .location-text {
+        width: 100%;
+    }
+
+    .col-lg-2, .col-lg-2.location, .col-lg-2.contact {
+        max-width: 100%;
+        margin-right: 0;
+        padding: 30px 0;
+    }
+
+    .socials {
+        text-align: center;
+    }
+}
